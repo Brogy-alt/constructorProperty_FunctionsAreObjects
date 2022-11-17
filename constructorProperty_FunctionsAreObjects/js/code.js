@@ -74,43 +74,42 @@ addition.division = function(numb1, numb2)
 addition.developerName = 'Joel Mukanya';
 */
 
+// console.log(person['surname']);
+// for(let p of Object.entries(person)) {
+//     console.log(p);
+// }
+// console.log(Object.keys(person));
+// console.log(Object.values(person));
+// console.log(Object.entries(person));
+
 
 
 // My example My hero Academia
+// Constructor function
 
-// function personData (name,status,age){
-//     return{
-//         firstName : name
-//         status : status
-//         age : age
+// function Person (firstName, quirk) {
+//     this.name = firstName;
+//     this.quirk = quirk;
+// }
+
+// function Quirkless (name) {
+//     this.name = name;
+// }
+
+// let superhero = new Person("Allmight", "One For All");
+// let human = new Quirkless("Brogan");
+
+// function testing(obj){
+//     if(obj.constructor === Person){
+//         console.log(`Name: ${obj.name}\n Quirk: ${obj.quirk}`)
+//         console.log("You have a quirk");
+//     }else {
+//         console.log(`Name: ${obj.name}`)
+//         console.log ("You do not have a quirk")
 //     }
 // }
-// let user = personData("Almight", "Retiredhero","49")
-// console.log(`Name`)
+// // calling it out
+// testing(human);
 
-function Person (firstName, quirk) {
-    this.name = firstName;
-    this.quirk = quirk;
-}
-
-function Quirkless (name) {
-    this.name = name;
-}
-
-let superhero = new Person("Allmight", "One For All");
-let human = new Quirkless("Brogan");
-
-function testing(obj){
-    if(obj.constructor === Person){
-        console.log(`Name: ${obj.name}\n Quirk: ${obj.quirk}`)
-        console.log("You have a quirk");
-    }else {
-        console.log(`Name: ${obj.name}`)
-        console.log ("You do not have a quirk")
-    }
-}
-// calling it out
-testing(human);
-
-testing(superhero)
+// testing(superhero)
 
